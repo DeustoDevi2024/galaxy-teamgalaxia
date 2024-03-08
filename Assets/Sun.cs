@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Sun : MonoBehaviour
 {
-    private float velocidad = 0.5f;
+    private float velocidad = 0.05f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +14,10 @@ public class Sun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        sunRotation();
     }
-    public void sunRotatio()
+    public void sunRotation()
     {
-        transform.rotation *= Quaternion.Euler(new Vector3(0, velocidad, 0));
+        this.transform.Rotate(new Vector3(0, velocidad, 0));
     }
 }
