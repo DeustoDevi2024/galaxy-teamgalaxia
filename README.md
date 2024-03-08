@@ -1,1 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ZH_kT84w)
+1º Vamos a descargar el asset con el diseño de los planetas.
+2º Haremos una jerarquía de padres e hijos con los planetas.
+Acto seguido calcularemos las diferentes velocidades de giro de los plantas respecto al sol.
+Y por último implementaremos su giro sobre ellos mismos.
