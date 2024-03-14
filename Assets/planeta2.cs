@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class planeta2 : MonoBehaviour
 {
-    private float velocidad = 0.1f, velocidadDeGiro = 0.2f;
+    public float velocidad = 0.1f, velocidadDeGiro = 0.2f;
     public Transform punto;
     // Start is called before the first frame update
     void Start()
@@ -21,9 +21,10 @@ public class planeta2 : MonoBehaviour
     private void venusRotation()
     {
         transform.rotation *= Quaternion.Euler(new Vector3(0, velocidad, 0));
+      
     }
 
-    private void venusRotationSun()
+    public void venusRotationSun()
     {
         this.transform.RotateAround(punto.transform.position, Vector3.up, velocidadDeGiro);
     }
