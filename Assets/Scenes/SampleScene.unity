@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964128, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 448446, guid: 6eb52968ab2779d4db7990fe0f754609, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 448446, guid: 6eb52968ab2779d4db7990fe0f754609, type: 3}
       propertyPath: m_LocalScale.x
@@ -474,8 +474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388e3e7072d9a0a45bc1bea597a8d3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 0.2
-  velocidadDeGiro: 0.6
+  velocidadDeGiro: 40
   punto: {fileID: 1967022605}
 --- !u!1 &469889336 stripped
 GameObject:
@@ -494,24 +493,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388e3e7072d9a0a45bc1bea597a8d3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 0.5
-  velocidadDeGiro: 0.4
+  velocidadDeGiro: 50
   punto: {fileID: 1967022605}
---- !u!114 &469889344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469889336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 388e3e7072d9a0a45bc1bea597a8d3a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidad: 0.1
-  velocidadDeGiro: 0.2
-  punto: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,7 +587,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &878161421
 PrefabInstance:
@@ -850,8 +833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388e3e7072d9a0a45bc1bea597a8d3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 0.3
-  velocidadDeGiro: 0.2
+  velocidadDeGiro: 25
   punto: {fileID: 1967022605}
 --- !u!1001 &1130970933
 PrefabInstance:
@@ -1069,8 +1051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388e3e7072d9a0a45bc1bea597a8d3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 0.1
-  velocidadDeGiro: 0.8
+  velocidadDeGiro: 30
   punto: {fileID: 1967022605}
 --- !u!1 &1425785168 stripped
 GameObject:
@@ -1163,8 +1144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 388e3e7072d9a0a45bc1bea597a8d3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 0.3
-  velocidadDeGiro: 0.6
+  velocidadDeGiro: 60
   punto: {fileID: 1967022605}
 --- !u!1001 &1865859865
 PrefabInstance:
@@ -1191,7 +1171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402416, guid: 7e606bbd20845a246b693fca327ac9c5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.4
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 402416, guid: 7e606bbd20845a246b693fca327ac9c5, type: 3}
       propertyPath: m_LocalRotation.w

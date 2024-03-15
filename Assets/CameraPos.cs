@@ -53,11 +53,11 @@ public class CameraPos : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            transform.rotation *= Quaternion.Euler(new Vector3(0, -5, 0));
+            transform.rotation *= Quaternion.Euler(new Vector3(0, 5, 0));
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            transform.rotation *= Quaternion.Euler(new Vector3(0, 5, 0));
+            transform.rotation *= Quaternion.Euler(new Vector3(0, -5, 0));
         }
         
 
